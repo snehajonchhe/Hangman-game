@@ -39,7 +39,6 @@ public:
         if (words_and_hints_.empty()) {
             throw std::invalid_argument("Invalid level: no words and hints provided");
         }
-
         reset();
     }
 
