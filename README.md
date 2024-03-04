@@ -73,6 +73,7 @@ public:
         std::cout << "Word: " << display_ << "\n";
         std::cout << "Hint: " << hint_ << "\n";
         std::cout << "Lives: " << lives_ << "\n";
+        std::cout<<"Number of letters in the word"<<word_.length()<<"\n";
 
         // Print hangman figure
         std::cout << "   ________\n";
